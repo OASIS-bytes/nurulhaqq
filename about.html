@@ -3,131 +3,238 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About | Nurulhaqq Quranic and Arabic School</title>
+    <title>About | Nurulhaqq Quranic and Arabic School, Offa</title>
     <meta name="description" content="Learn about Nurulhaqq Quranic and Arabic School and our mission to shape confident, compassionate Muslim learners." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <header class="site-header">
+    <!-- ============================================================ -->
+    <!-- Inline SVG icon sprite (no external icon library)            -->
+    <!-- ============================================================ -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+      <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" />
+      </symbol>
+      <symbol id="i-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2.5l2.95 5.98 6.6.96-4.78 4.66 1.13 6.58L12 17.57l-5.9 3.1 1.13-6.57L2.45 9.45l6.6-.96L12 2.5z" />
+      </symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2v3" /><path d="M12 19v3" /><path d="M2 12h3" /><path d="M19 12h3" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6 9 17l-5-5" />
+      </symbol>
+      <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2V4z" /><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7V4z" />
+      </symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" /><path d="M2 12h20" /><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 5L2 7" />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />
+      </symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+      </symbol>
+      <symbol id="i-school" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m22 10-10-7-10 7 10 7 10-7z" /><path d="M22 10v6" /><path d="M6 12.5V16c0 1.66 2.69 3 6 3s6-1.34 6-3v-3.5" /><path d="M5 21h14" />
+      </symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2z" />
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5v.01" />
+      </symbol>
+      <symbol id="i-twitter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M4 4l16 16" /><path d="M20 4 4 20" />
+      </symbol>
+      <symbol id="i-whats" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+      </symbol>
+    </svg>
+
+    <!-- ============================================================ -->
+    <!-- Header / navigation                                          -->
+    <!-- ============================================================ -->
+    <header class="site-header" id="site-header">
       <div class="container nav-wrap">
         <a href="index.html" class="brand" aria-label="Nurulhaqq home">
-          <div class="brand-mark">NQ</div>
-          <div>
+          <img src="images/school-logo.png" alt="Nurulhaqq Quranic and Arabic School crest" />
+          <span>
             <span class="brand-name">Nurulhaqq</span>
-            <small>Quranic & Arabic</small>
-          </div>
+            <span class="brand-tag">Quranic &amp; Arabic School</span>
+          </span>
         </a>
 
-        <nav class="main-nav" aria-label="Main Navigation">
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
           <a href="index.html">Home</a>
-          <a href="about.html" class="active">About</a>
+          <a href="about.html" class="is-active">About</a>
           <a href="programs.html">Programs</a>
           <a href="admissions.html">Admissions</a>
+          <a href="index.html#news">News</a>
           <a href="contact.html">Contact</a>
+        <a href="admissions.html" class="btn btn--primary nav-mobile-cta">Apply Now</a>
         </nav>
 
-        <a class="btn btn-primary" href="admissions.html">Enroll Now</a>
-        <button class="nav-toggle" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
+        <a href="admissions.html" class="btn btn--primary nav-cta">Apply Now</a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg><use href="#i-menu" /></svg>
         </button>
       </div>
     </header>
 
     <main>
+      <!-- ============================================================ -->
+      <!-- Page hero                                                   -->
+      <!-- ============================================================ -->
       <section class="page-hero">
-        <div class="container">
+        <div class="container page-hero__inner">
           <p class="eyebrow">About us</p>
-          <h1>Building a generation rooted in faith, wisdom, and service.</h1>
+          <h1>Building a generation rooted in faith, wisdom and service.</h1>
           <p>
-            Nurulhaqq Quranic and Arabic School exists to guide young learners toward a life of knowledge, integrity, and sincere devotion. We blend academic excellence with strong Islamic formation, helping students grow in confidence and purpose.
+            Nurulhaqq Quranic and Arabic School exists to guide young learners toward a life of
+            knowledge, integrity and sincere devotion — blending academic excellence with strong
+            Islamic formation.
           </p>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container story-layout">
-          <div>
-            <div class="section-heading left-align">
-              <p class="eyebrow">Our story</p>
-              <h2>Educating hearts and minds in an enriching Islamic environment.</h2>
+      <!-- ============================================================ -->
+      <!-- Our story                                                   -->
+      <!-- ============================================================ -->
+      <section class="page-section section">
+        <div class="container">
+          <div class="dual-grid">
+            <div>
+              <div class="section-head">
+                <p class="eyebrow">Our story</p>
+                <h2>Educating hearts and minds in an enriching Islamic environment.</h2>
+              </div>
+              <p class="lead">
+                We believe that schools should do more than prepare students for tests — they
+                should prepare them for life. Our curriculum is designed to help each child become
+                a confident believer, a thoughtful learner and a respectful member of society.
+              </p>
+              <p class="lead">
+                From early Quranic learning to advanced Arabic and academic study, every program
+                is built to nurture discipline, compassion, curiosity and purposeful growth. We
+                partner closely with families to support each child's journey.
+              </p>
             </div>
-            <p class="about-copy">
-              We believe that schools should do more than prepare students for tests—they should prepare them for life. Our curriculum is designed to help each child become a confident believer, a thoughtful learner, and a respectful member of society.
-            </p>
-            <p class="about-copy">
-              From early Quranic learning to advanced Arabic and academic study, every program is built to nurture discipline, compassion, curiosity, and purposeful growth. We partner closely with families to support each child’s journey.
-            </p>
+
+            <div class="dual-med" data-reveal>
+              <img src="images/school-building.png" alt="The Nurulhaqq school building in Offa, Kwara State" loading="lazy" />
+            </div>
           </div>
 
-          <div class="image-card">
-            <img src="https://images.unsplash.com/photo-1544967082-7bc4f7d9cb8c?auto=format&fit=crop&w=1000&q=80" alt="Beautiful Quran and Islamic study materials in a peaceful setting" />
+          <div class="info-grid">
+            <article class="panel info-card" data-reveal>
+              <div class="program__icon"><svg><use href="#i-spark" /></svg></div>
+              <h3>Our Vision</h3>
+              <p>To raise a generation of balanced Muslim leaders who are spiritually grounded and intellectually equipped.</p>
+            </article>
+            <article class="panel info-card" data-reveal>
+              <div class="program__icon program__icon--navy"><svg><use href="#i-star" /></svg></div>
+              <h3>Our Values</h3>
+              <p>Faith, respect, integrity, discipline and excellence guide everything we do.</p>
+            </article>
+            <article class="panel info-card" data-reveal>
+              <div class="program__icon program__icon--navy"><svg><use href="#i-heart" /></svg></div>
+              <h3>Our Community</h3>
+              <p>A caring, motivating environment where parents, students and teachers work together.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section" style="padding-top: 0;">
-        <div class="container info-grid">
-          <article class="info-card">
-            <div class="icon-box">✦</div>
-            <h3>Our Vision</h3>
-            <p>To raise a generation of balanced Muslim leaders who are spiritually grounded and intellectually equipped.</p>
-          </article>
-          <article class="info-card">
-            <div class="icon-box">◎</div>
-            <h3>Our Values</h3>
-            <p>Faith, respect, integrity, discipline, and excellence guide everything we do.</p>
-          </article>
-          <article class="info-card">
-            <div class="icon-box">▣</div>
-            <h3>Our Community</h3>
-            <p>A caring, motivating environment where parents, students, and teachers work together.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="cta section">
-        <div class="container cta-box">
-          <div>
-            <p class="eyebrow">Admissions open</p>
-            <h2>Become part of a school community that strengthens both deen and dunya.</h2>
+      <!-- ============================================================ -->
+      <!-- CTA                                                          -->
+      <!-- ============================================================ -->
+      <section class="cta section--tight">
+        <div class="container cta__inner" data-reveal>
+          <div class="cta__icon"><svg><use href="#i-school" /></svg></div>
+          <h2>Become part of a school community that strengthens both deen and dunya.</h2>
+          <div class="cta__actions">
+            <a href="admissions.html" class="btn btn--light">Apply Today</a>
+            <a href="contact.html" class="btn btn--ghost-light">Contact Us</a>
           </div>
-          <a class="btn btn-light" href="admissions.html">Apply Today</a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-wrap">
+    <!-- ============================================================ -->
+    <!-- Footer                                                       -->
+    <!-- ============================================================ -->
+    <footer class="footer">
+      <div class="container footer__grid">
         <div>
-          <div class="brand small-brand">
-            <div class="brand-mark">NQ</div>
-            <div>
+          <a href="index.html" class="brand" aria-label="Nurulhaqq home">
+            <img src="images/school-logo.png" alt="Nurulhaqq Quranic and Arabic School crest" />
+            <span>
               <span class="brand-name">Nurulhaqq</span>
-              <small>Quranic & Arabic</small>
-            </div>
+              <span class="brand-tag">Quranic &amp; Arabic School</span>
+            </span>
+          </a>
+          <p class="footer__desc">
+            Nurturing Qur'anic knowledge and academic excellence in Offa, Kwara State.
+            Faith, character and learning under one roof.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Quick Links</h3>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="contact.html">Contact</a>
           </div>
-          <p>Nurturing hearts, minds, and futures through authentic Islamic education.</p>
         </div>
 
-        <div class="footer-links">
-          <a href="about.html">About</a>
-          <a href="programs.html">Programs</a>
-          <a href="admissions.html">Admissions</a>
-          <a href="contact.html">Contact</a>
+        <div>
+          <h3 class="footer__title">Contact</h3>
+          <div class="footer__contact">
+            <div><svg><use href="#i-phone" /></svg><a href="tel:08039674929">0803 967 4929</a></div>
+            <div><svg><use href="#i-phone" /></svg><a href="tel:07039592645">0703 959 2645</a></div>
+            <div><svg><use href="#i-pin" /></svg><span>Offa, Kwara State, Nigeria</span></div>
+          </div>
         </div>
 
-        <div class="footer-contact">
-          <p>admissions@nurulhaqqschool.com</p>
-          <p>+1 (555) 789-0123</p>
+        <div>
+          <h3 class="footer__title">Connect</h3>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><svg><use href="#i-facebook" /></svg></a>
+            <a href="#" aria-label="Instagram"><svg><use href="#i-instagram" /></svg></a>
+            <a href="#" aria-label="X (Twitter)"><svg><use href="#i-twitter" /></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg><use href="#i-whats" /></svg></a>
+          </div>
         </div>
       </div>
-      <div class="container bottom-bar">
+
+      <div class="container footer__bottom">
         <p>© <span id="year"></span> Nurulhaqq Quranic and Arabic School. All rights reserved.</p>
+        <p>Website designed &amp; developed by <strong>Skyline Studio</strong></p>
       </div>
     </footer>
 

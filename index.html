@@ -3,305 +3,717 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nurulhaqq Quranic and Arabic School</title>
+    <title>Nurulhaqq Quranic and Arabic School, Offa</title>
+    <link rel="icon" type="image/png" href="images/school-logo.png" />
     <meta
       name="description"
-      content="Nurulhaqq Quranic and Arabic School is a premium Islamic learning environment that nurtures faith, character, and academic excellence."
+      content="Nurulhaqq Quranic and Arabic School, Offa (Kwara State) — nurturing Qur'anic knowledge, Arabic language skills and noble character."
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <header class="site-header">
+    <!-- ============================================================ -->
+    <!-- Inline SVG icon sprite (no external icon library)            -->
+    <!-- ============================================================ -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+      <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+      </symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M4 7h16" /><path d="M4 12h16" /><path d="M4 17h16" />
+      </symbol>
+      <symbol id="i-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2.5l2.95 5.98 6.6.96-4.78 4.66 1.13 6.58L12 17.57l-5.9 3.1 1.13-6.57L2.45 9.45l6.6-.96L12 2.5z" />
+      </symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="0.6" fill="currentColor" />
+        <path d="M12 2v3" /><path d="M12 19v3" /><path d="M2 12h3" /><path d="M19 12h3" /><path d="m5 5 2.1 2.1" /><path d="m16.9 16.9 2.1 2.1" /><path d="m19 5-2.1 2.1" /><path d="m7.1 16.9-2.1 2.1" />
+      </symbol>
+      <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2V4z" /><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7V4z" />
+      </symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" /><path d="M2 12h20" /><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+      </symbol>
+      <symbol id="i-grad" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 10 12 5 2 10l10 5 10-5z" /><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5" /><path d="M22 10v5" />
+      </symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
+      </symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 6 9 17l-5-5" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 5L2 7" />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="10" r="3" />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />
+      </symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="4" width="18" height="18" rx="2" /><path d="M16 2v4" /><path d="M8 2v4" /><path d="M3 10h18" />
+      </symbol>
+      <symbol id="i-announce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 11 18-5v12L3 14v-3z" /><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
+      </symbol>
+      <symbol id="i-paper" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" /><path d="M18 14h-8" /><path d="M15 18h-5" /><path d="M10 6h8v4h-8V6z" />
+      </symbol>
+      <symbol id="i-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 9a6 6 0 0 0 12 0V3H6v6z" /><path d="M6 5H3a2 2 0 0 0 2 2h1" /><path d="M18 5h3a2 2 0 0 1-2 2h-1" /><path d="M12 15v4" /><path d="M8 21h8" /><path d="M9 21v-2a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2" />
+      </symbol>
+      <symbol id="i-school" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m22 10-10-7-10 7 10 7 10-7z" /><path d="M22 10v6" /><path d="M6 12.5V16c0 1.66 2.69 3 6 3s6-1.34 6-3v-3.5" /><path d="M5 21h14" />
+      </symbol>
+      <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 2 11 13" /><path d="M22 2 15 22l-4-9-9-4 20-7z" />
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" />
+      </symbol>
+      <symbol id="i-msg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </symbol>
+      <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 4l2 2h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-2h4z" /><circle cx="12" cy="13" r="3" />
+      </symbol>
+      <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 6 6 18" /><path d="m6 6 12 12" />
+      </symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2z" />
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5v.01" />
+      </symbol>
+      <symbol id="i-twitter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M4 4l16 16" /><path d="M20 4 4 20" />
+      </symbol>
+      <symbol id="i-whats" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+      </symbol>
+    </svg>
+
+    <!-- ============================================================ -->
+    <!-- Announcement bar                                             -->
+    <!-- ============================================================ -->
+    <div class="announce">
+      <div class="announce__inner">
+        <span>New session begins Monday, 21 September 2026 — admissions are open.</span>
+        <a href="#contact">
+          Apply Now
+          <svg><use href="#i-arrow-right" /></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- Header / navigation                                          -->
+    <!-- ============================================================ -->
+    <header class="site-header" id="site-header">
       <div class="container nav-wrap">
-        <a href="index.html" class="brand" aria-label="Nurulhaqq home">
-          <div class="brand-mark">NQ</div>
-          <div>
+        <a href="#home" class="brand" aria-label="Nurulhaqq home">
+          <img src="images/school-logo.png" alt="Nurulhaqq Quranic and Arabic School crest" />
+          <span>
             <span class="brand-name">Nurulhaqq</span>
-            <small>Quranic & Arabic</small>
-          </div>
+            <span class="brand-tag">Quranic &amp; Arabic School</span>
+          </span>
         </a>
 
-        <nav class="main-nav" aria-label="Main Navigation">
-          <a href="index.html" class="active">Home</a>
-          <a href="about.html">About</a>
-          <a href="programs.html">Programs</a>
-          <a href="admissions.html">Admissions</a>
-          <a href="contact.html">Contact</a>
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+          <a href="#home" class="is-active">Home</a>
+          <a href="#about">About</a>
+          <a href="#programs">Programs</a>
+          <a href="#admissions">Admissions</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn--primary nav-mobile-cta">Apply Now</a>
         </nav>
 
-        <a class="btn btn-primary" href="admissions.html">Enroll Now</a>
-        <button class="nav-toggle" aria-label="Toggle navigation">
-          <span></span>
-          <span></span>
-          <span></span>
+        <a href="#contact" class="btn btn--primary nav-cta">Apply Now</a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg><use href="#i-menu" /></svg>
         </button>
       </div>
     </header>
 
     <main>
+      <!-- ============================================================ -->
+      <!-- Hero                                                         -->
+      <!-- ============================================================ -->
       <section class="hero" id="home">
-        <div class="container hero-content">
-          <div class="hero-copy">
-            <p class="eyebrow">Premium Islamic education</p>
-            <h1>Where faith, knowledge, and excellence grow together.</h1>
-            <p class="lead">
-              Nurulhaqq Quranic and Arabic School offers a refined learning experience that builds strong Islamic identity, academic achievement, and lifelong character.
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Nurulhaqq Quranic &amp; Arabic School, Offa</p>
+            <h1 class="hero__title">
+              Qur'anic Knowledge.<br />
+              <span class="accent">Arabic Excellence.</span><br />
+              Noble Character.
+            </h1>
+            <p class="hero__lede">
+              Providing a nurturing environment where students develop strong Qur'anic
+              foundations, Arabic language skills, Islamic knowledge, and excellent character.
             </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="programs.html">Explore Programs</a>
-              <a class="btn btn-secondary" href="about.html">Our Story</a>
+            <div class="hero__actions">
+              <a href="#about" class="btn btn--primary">Explore Our School</a>
+              <a href="#contact" class="btn btn--outline">Apply Now</a>
             </div>
-
-            <ul class="hero-metrics">
-              <li><strong>1,500+</strong><span>families served</span></li>
-              <li><strong>18</strong><span>years of impact</span></li>
-              <li><strong>98%</strong><span>parent satisfaction</span></li>
-            </ul>
+            <div class="hero__chips">
+              <span class="chip"><svg><use href="#i-book" /></svg>Hifdh &amp; Tajweed</span>
+              <span class="chip"><svg><use href="#i-globe" /></svg>Arabic Language</span>
+              <span class="chip"><svg><use href="#i-grad" /></svg>Academic Excellence</span>
+            </div>
           </div>
 
-          <div class="hero-visual" aria-label="Premium school campus">
-            <div class="image-card main-image">
+          <div class="hero__media">
+            <figure class="hero__photo">
               <img
-                src="https://images.unsplash.com/photo-1561808840-2cc9b60c9a6c?auto=format&fit=crop&w=1200&q=80"
-                alt="Beautiful mosque exterior in a peaceful Islamic setting"
+                src="images/school-building.png"
+                alt="Exterior of the Nurulhaqq main school building with green, orange and blue painted walls"
+                fetchpriority="high"
               />
-            </div>
-            <div class="floating-card card-one">
-              <span class="label">Distinctive learning</span>
-              <strong>Quran | Arabic | Academics</strong>
-            </div>
-            <div class="floating-card card-two">
-              <span class="label">Campus culture</span>
-              <strong>Warm, disciplined, inspiring</strong>
-            </div>
+            </figure>
           </div>
         </div>
       </section>
 
-      <section class="trust-bar">
-        <div class="container trust-wrap">
-          <span>Trusted by mindful families</span>
-          <div class="trust-logos">
-            <span>Hifz Program</span>
-            <span>Quranic Excellence</span>
-            <span>Arabic Immersion</span>
-            <span>Character Formation</span>
-          </div>
+      <!-- ============================================================ -->
+      <!-- Statement strip                                              -->
+      <!-- ============================================================ -->
+      <section class="strip" aria-label="Our focus areas">
+        <div class="container strip__inner">
+          <span class="strip__item"><svg><use href="#i-book" /></svg>Hifdh &amp; Tajweed</span>
+          <span class="strip__item"><svg><use href="#i-globe" /></svg>Arabic Immersion</span>
+          <span class="strip__item"><svg><use href="#i-school" /></svg>Formal Academics</span>
+          <span class="strip__item"><svg><use href="#i-heart" /></svg>Islamic Character</span>
         </div>
       </section>
 
+      <!-- ============================================================ -->
+      <!-- About                                                        -->
+      <!-- ============================================================ -->
       <section class="about section" id="about">
-        <div class="container two-column">
-          <div class="section-heading left-align">
-            <p class="eyebrow">Our mission</p>
-            <h2>Raising confident, disciplined learners rooted in faith.</h2>
+        <div class="container about__grid">
+          <div class="about__media" data-reveal>
+            <figure class="about__photo">
+              <img
+                src="images/school-building.png"
+                alt="The Nurulhaqq school building, a warm and welcoming place of learning"
+                loading="lazy"
+              />
+            </figure>
           </div>
-          <div class="about-copy">
-            <p>
-              We are committed to helping students grow in knowledge, character, and devotion by combining academic excellence with authentic Islamic values. Every child is nurtured with care, discipline, and purpose.
-            </p>
-            <p>
-              Through a rich curriculum, dedicated educators, and a vibrant school community, our students become thoughtful individuals who lead with integrity and compassion.
-            </p>
-          </div>
-        </div>
 
-        <div class="container feature-grid">
-          <article class="feature-card">
-            <div class="icon-box">✦</div>
-            <h3>Islamic Identity</h3>
-            <p>Daily practices, Quranic learning, and character-building in an uplifting environment.</p>
-          </article>
-          <article class="feature-card">
-            <div class="icon-box">◎</div>
-            <h3>Academic Excellence</h3>
-            <p>Strong educational foundations in literacy, numeracy, science, and critical thinking.</p>
-          </article>
-          <article class="feature-card">
-            <div class="icon-box">▣</div>
-            <h3>Community Values</h3>
-            <p>Respect, service, stewardship, and belonging are woven into every experience.</p>
-          </article>
+          <div class="about__copy" data-reveal>
+            <p class="eyebrow">About Nurulhaqq</p>
+            <h2>Building Hearts, Minds and Character Through Knowledge</h2>
+            <p>
+              Nurulhaqq Quranic and Arabic School, Offa, Kwara State, combines authentic Qur'anic
+              and Islamic education with a solid formal academic curriculum. We are dedicated to
+              nurturing every child's faith, character and intellect in one welcoming environment.
+            </p>
+            <p>
+              Our students memorise and understand the Qur'an, develop fluency in Arabic and
+              master core school subjects — supported by caring teachers and a disciplined,
+              values-driven community.
+            </p>
+            <a href="#programs" class="link-arrow">
+              Discover Nurulhaqq
+              <svg><use href="#i-arrow-right" /></svg>
+            </a>
+          </div>
         </div>
       </section>
 
+      <!-- ============================================================ -->
+      <!-- Programs                                                     -->
+      <!-- ============================================================ -->
       <section class="programs section" id="programs">
         <div class="container">
-          <div class="section-heading center">
-            <p class="eyebrow">Our learning pathways</p>
-            <h2>Programs shaped for growth, confidence, and purpose.</h2>
+          <div class="section-head" data-reveal>
+            <p class="eyebrow">Our Educational Programs</p>
+            <h2>Structured learning to nurture knowledge, faith and character.</h2>
           </div>
 
-          <div class="program-grid">
-            <article class="program-card">
-              <span class="tag">Foundation</span>
-              <h3>Quranic Foundation</h3>
-              <p>Early reading, memorization, and foundational Islamic learning for young learners.</p>
-              <ul>
-                <li>Tajweed basics</li>
-                <li>Arabic phonics</li>
-                <li>Daily Islamic routines</li>
-              </ul>
+          <div class="programs__grid">
+            <article class="program" data-reveal>
+              <span class="program__num">01</span>
+              <div class="program__icon"><svg><use href="#i-book" /></svg></div>
+              <h3 class="program__title">Qur'anic Studies</h3>
+              <p class="program__text">
+                Qur'an recitation, memorisation, tajweed and foundational Qur'anic knowledge,
+                taught by trained teachers with patience and care.
+              </p>
             </article>
 
-            <article class="program-card feature">
-              <span class="tag">Core</span>
-              <h3>Primary & Middle School</h3>
-              <p>Academic depth with Quranic integration, mentorship, and leadership development.</p>
-              <ul>
-                <li>STEM and literacy</li>
-                <li>Arabic language fluency</li>
-                <li>Student leadership opportunities</li>
-              </ul>
+            <article class="program" data-reveal>
+              <span class="program__num">02</span>
+              <div class="program__icon program__icon--navy"><svg><use href="#i-globe" /></svg></div>
+              <h3 class="program__title">Arabic Language</h3>
+              <p class="program__text">
+                Developing students' Arabic reading, writing, vocabulary and communication skills —
+                from foundational sounds to confident fluency.
+              </p>
             </article>
 
-            <article class="program-card">
-              <span class="tag">Advanced</span>
-              <h3>Hifz & Language Track</h3>
-              <p>Structured programs for advanced memorization, Arabic communication, and deen-based learning.</p>
-              <ul>
-                <li>Memorization coaching</li>
-                <li>Advanced Arabic study</li>
-                <li>Personalized guidance</li>
-              </ul>
+            <article class="program" data-reveal>
+              <span class="program__num">03</span>
+              <div class="program__icon program__icon--navy"><svg><use href="#i-moon" /></svg></div>
+              <h3 class="program__title">Islamic Studies</h3>
+              <p class="program__text">
+                Learning essential Islamic knowledge, manners, values and understanding that guide
+                everyday life with purpose and sincerity.
+              </p>
+            </article>
+
+            <article class="program" data-reveal>
+              <span class="program__num">04</span>
+              <div class="program__icon"><svg><use href="#i-grad" /></svg></div>
+              <h3 class="program__title">Western Education</h3>
+              <p class="program__text">
+                Equipping students with academic knowledge, 
+                critical thinking and practical skills to excel in school and beyond.
+              </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="highlights section">
-        <div class="container highlight-grid">
-          <div class="highlight-visual">
-            <img
-              src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80"
-              alt="Open Quran and Islamic study essentials in a calm environment"
-            />
+      <!-- ============================================================ -->
+      <!-- Why Nurulhaqq                                                -->
+      <!-- ============================================================ -->
+      <section class="why section" id="why">
+        <div class="container why__grid">
+          <div class="why__head" data-reveal>
+            <p class="eyebrow eyebrow--light">Why Nurulhaqq</p>
+            <h2>A school built around faith, discipline and success.</h2>
+            <p>
+              Families choose Nurulhaqq for an education that grows the whole child — Qur'anic
+              knowledge, Arabic fluency, strong academics and beautiful character under one roof.
+            </p>
           </div>
 
-          <div class="highlight-content">
-            <p class="eyebrow">Why families choose us</p>
-            <h2>A nurturing environment where students thrive. </h2>
-            <div class="check-list">
+          <div class="why__list" data-reveal>
+            <div class="why__item">
+              <span class="why__check"><svg><use href="#i-check" /></svg></span>
               <div>
-                <span>✓</span>
-                <p>Focused Quranic instruction and Arabic immersion.</p>
+                <strong>Qualified &amp; Dedicated Teachers</strong>
+                <span>Experienced, caring educators who guide every student with skill.</span>
               </div>
+            </div>
+            <div class="why__item">
+              <span class="why__check"><svg><use href="#i-check" /></svg></span>
               <div>
-                <span>✓</span>
-                <p>Qualified educators who combine academic rigor with compassion.</p>
+                <strong>Qur'an-Centered Education</strong>
+                <span>Memorisation and understanding are at the heart of daily learning.</span>
               </div>
+            </div>
+            <div class="why__item">
+              <span class="why__check"><svg><use href="#i-check" /></svg></span>
               <div>
-                <span>✓</span>
-                <p>Strong values, safe community, and purposeful learning.</p>
+                <strong>Arabic Language Development</strong>
+                <span>Genuine fluency built through structured, everyday practice.</span>
+              </div>
+            </div>
+            <div class="why__item">
+              <span class="why__check"><svg><use href="#i-check" /></svg></span>
+              <div>
+                <strong>Islamic Character Formation</strong>
+                <span>Faith, discipline and good character nurtured every single day.</span>
+              </div>
+            </div>
+            <div class="why__item">
+              <span class="why__check"><svg><use href="#i-check" /></svg></span>
+              <div>
+                <strong>Supportive Learning Environment</strong>
+                <span>A warm, safe community where every child feels at home.</span>
+              </div>
+            </div>
+            <div class="why__item">
+              <span class="why__check"><svg><use href="#i-check" /></svg></span>
+              <div>
+                <strong>Holistic Student Development</strong>
+                <span>Academics, faith and character balanced in every stage.</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="news section">
+      <!-- ============================================================ -->
+      <!-- News & events                                                -->
+      <!-- ============================================================ -->
+      <section class="news section" id="news">
         <div class="container">
-          <div class="section-heading center">
-            <p class="eyebrow">School life</p>
-            <h2>Moments from our campus.</h2>
+          <div class="section-head" data-reveal>
+            <p class="eyebrow">News &amp; Announcements</p>
+            <h2>Latest News from Nurulhaqq</h2>
+            <p>
+              Stay updated with our latest announcements, events and stories from our school
+              community.
+            </p>
           </div>
 
-          <div class="news-grid">
-            <article class="news-card">
-              <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=800&q=80" alt="Open Quran on a wooden stand in a peaceful setting" />
-              <div class="news-body">
-                <span class="date">May 2026</span>
-                <h3>Students build confidence through Quranic recitation and study.</h3>
-                <a href="contact.html">Learn more</a>
+          <div class="news__grid">
+            <article class="news__feature" data-reveal>
+              <div class="news__feature-body">
+                <div class="news__feature-head">
+                  <span class="news__tag"><svg><use href="#i-announce" /></svg>School Announcement</span>
+                </div>
+                <h3>Welcome Back to School</h3>
+                <p>
+                  A new academic session begins! We warmly welcome all students — old and new —
+                  back to Nurulhaqq for a year of Qur'anic learning, Arabic and academic excellence.
+                </p>
+                <div class="news__meta">
+                  <span><svg><use href="#i-cal" /></svg>Monday, 21 September 2026</span>
+                  <span><svg><use href="#i-clock" /></svg>8:00 AM</span>
+                </div>
+                <a href="#contact" class="btn btn--light">Contact the School</a>
+              </div>
+              <div class="news__poster">
+                <img
+                  src="images/welcome-back-poster.png"
+                  alt="Green Welcome Back to School poster announcing the resumption date and contact information"
+                  loading="lazy"
+                />
               </div>
             </article>
-            <article class="news-card">
-              <img src="https://images.unsplash.com/photo-1568031813264-d394c6d4d6d8?auto=format&fit=crop&w=800&q=80" alt="Beautiful mosque architecture and Islamic design" />
-              <div class="news-body">
-                <span class="date">April 2026</span>
-                <h3>Our community celebrates service, leadership, and brotherhood.</h3>
-                <a href="about.html">Learn more</a>
+
+            <div class="news__side">
+              <div class="news-holder" data-reveal>
+                <svg><use href="#i-paper" /></svg>
+                <h4>More news coming soon</h4>
+                <p>
+                  Future announcements will appear here. Check back regularly for the latest
+                  updates from our school.
+                </p>
+                <a href="#contact" class="link-arrow">Read more <svg><use href="#i-arrow-right" /></svg></a>
               </div>
-            </article>
-            <article class="news-card">
-              <img src="https://images.unsplash.com/photo-1516222338250-863f4d8f8d59?auto=format&fit=crop&w=800&q=80" alt="Islamic calligraphy and Quranic decoration in a serene environment" />
-              <div class="news-body">
-                <span class="date">March 2026</span>
-                <h3>Mentorship and coaching help every student reach their best.</h3>
-                <a href="admissions.html">Learn more</a>
+              <div class="news-holder news-holder--mint" data-reveal>
+                <svg><use href="#i-cal" /></svg>
+                <h4>Upcoming events</h4>
+                <p>Term calendar and school programmes will be listed here. Stay tuned!</p>
+                <a href="#admissions" class="link-arrow">View calendar <svg><use href="#i-arrow-right" /></svg></a>
               </div>
-            </article>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="testimonials section">
+      <!-- ============================================================ -->
+      <!-- School life & facilities                                     -->
+      <!-- ============================================================ -->
+      <section class="life section" id="life">
         <div class="container">
-          <div class="section-heading center">
-            <p class="eyebrow">Parent testimonials</p>
-            <h2>Families value the difference we make.</h2>
+          <div class="section-head" data-reveal>
+            <p class="eyebrow">School Life</p>
+            <h2>A glimpse of life at Nurulhaqq.</h2>
+            <p>Click any image to enlarge — more school photographs coming soon.</p>
           </div>
 
-          <div class="testimonial-grid">
-            <blockquote>
-              “We wanted a school that would strengthen our child's deen and academics. Nurulhaqq has exceeded our expectations.”
-              <footer>— Maryam A.</footer>
-            </blockquote>
-            <blockquote>
-              “The teachers care deeply, the environment is respectful, and the Quranic program is outstanding.”
-              <footer>— Uthman K.</footer>
-            </blockquote>
-            <blockquote>
-              “This school gives our child discipline, confidence, and a strong connection to Islamic values.”
-              <footer>— Aisha S.</footer>
-            </blockquote>
+          <!-- Gallery images: illustrative stock images — swap with real school photos later -->
+          <div class="life__grid">
+            <button type="button" class="gallery-item" data-title="Quran Study Hall" data-img="images/quran-study-hall.png" aria-label="Enlarge: Quran Study Hall photo">
+              <img src="images/quran-study-hall.png" alt="Open Quran resting on a wooden reading stand in a quiet study room" loading="lazy" />
+              <span class="gallery-item__cap"><svg><use href="#i-camera" /></svg>Quran Study Hall</span>
+            </button>
+
+            <button type="button" class="gallery-item" data-title="Arabic Language Class" data-img="images/arabic-language-class.png" aria-label="Enlarge: Arabic Language Class photo">
+              <img src="images/arabic-language-class.png" alt="Open textbook being read during an Arabic language lesson" loading="lazy" />
+              <span class="gallery-item__cap"><svg><use href="#i-camera" /></svg>Arabic Language Class</span>
+            </button>
+
+            <button type="button" class="gallery-item" data-title="School Campus" data-img="images/school-campus.png" aria-label="Enlarge: School Campus photo">
+              <img src="images/school-campus.png" alt="School campus buildings with walkways between blocks" loading="lazy" />
+              <span class="gallery-item__cap"><svg><use href="#i-camera" /></svg>School Campus</span>
+            </button>
+
+            <button type="button" class="gallery-item" data-title="Classroom Learning" data-img="images/classroom-learning.png" aria-label="Enlarge: Classroom Learning photo">
+              <img src="images/classroom-learning.png" alt="Empty classroom with rows of desks and a chalkboard" loading="lazy" />
+              <span class="gallery-item__cap"><svg><use href="#i-camera" /></svg>Classroom Learning</span>
+            </button>
+
+            <button type="button" class="gallery-item" data-title="Campus Assembly" data-img="images/campus-assembly.png" aria-label="Enlarge: Campus Assembly photo">
+              <img src="images/campus-assembly.png" alt="Students collaborating together during a campus activity" loading="lazy" />
+              <span class="gallery-item__cap"><svg><use href="#i-camera" /></svg>Campus Assembly</span>
+            </button>
+
+            <button type="button" class="gallery-item" data-title="Graduation & Celebration" data-img="images/graduation-celebration.png" aria-label="Enlarge: Graduation and Celebration photo">
+              <img src="images/graduation-celebration.png" alt="Graduates in caps and gowns throwing their caps into the air" loading="lazy" />
+              <span class="gallery-item__cap"><svg><use href="#i-camera" /></svg>Graduation &amp; Celebration</span>
+            </button>
+          </div>
+
+          <div class="section-head life__subhead" data-reveal>
+            <p class="eyebrow">Our Facilities</p>
+            <h2>Purpose-built spaces for every learner.</h2>
+            <p>Modern facilities where Qur'anic, Arabic and academic learning come to life.</p>
+          </div>
+
+          <!-- Facilities photos: illustrative stock images — swap with real school photos soon -->
+          <div class="facilities__grid">
+            <button type="button" class="facility" data-title="Biology Laboratory" data-img="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80" aria-label="Enlarge: Biology Laboratory photo">
+              <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80" alt="Empty school biology laboratory with microscopes and lab benches" loading="lazy" />
+              <span class="facility__body">
+                <strong>Biology Laboratory</strong>
+                <span>A bright, equipped space for practical science and discovery.</span>
+              </span>
+            </button>
+
+            <button type="button" class="facility" data-title="Chemistry Laboratory" data-img="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=80" aria-label="Enlarge: Chemistry Laboratory photo">
+              <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=80" alt="Chemistry laboratory with glassware and conical flasks on a bench" loading="lazy" />
+              <span class="facility__body">
+                <strong>Chemistry Laboratory</strong>
+                <span>From glassware to experiments, made safe and hands-on.</span>
+              </span>
+            </button>
+
+            <button type="button" class="facility" data-title="Physics Laboratory" data-img="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80" aria-label="Enlarge: Physics Laboratory photo">
+              <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80" alt="Physics laboratory workbench with electronic measuring equipment" loading="lazy" />
+              <span class="facility__body">
+                <strong>Physics Laboratory</strong>
+                <span>Experimentation and measurement skills in action.</span>
+              </span>
+            </button>
+
+            <button type="button" class="facility" data-title="Football Field" data-img="images/football-field.jpeg" aria-label="Enlarge: Football Field photo">
+              <img src="images/football-field.jpeg" alt="School football field with green pitch and goal area" loading="lazy" />
+              <span class="facility__body">
+                <strong>Football Field</strong>
+                <span>Sport and teamwork build healthy, confident students.</span>
+              </span>
+            </button>
+
+            <button type="button" class="facility" data-title="School Mosque" data-img="images/school-mosque.png" aria-label="Enlarge: School Mosque photo">
+              <img src="images/school-mosque.png" alt="School mosque prayer hall with ornate Islamic interior" loading="lazy" />
+              <span class="facility__body">
+                <strong>School Mosque</strong>
+                <span>A quiet place for salah, Qur'anic study and reflection.</span>
+              </span>
+            </button>
+
+            <div class="facilities__stack">
+              <button type="button" class="facility" data-title="School Library" data-img="images/school-library.png" aria-label="Enlarge: School Library photo">
+                <img src="images/school-library.png" alt="School library with tall bookshelves and reading tables" loading="lazy" />
+                <span class="facility__body">
+                  <strong>School Library</strong>
+                  <span>A calm corner for reading, research and homework.</span>
+                </span>
+              </button>
+              <button type="button" class="facility" data-title="Computer Room" data-img="images/computer-room.png" aria-label="Enlarge: Computer Room photo">
+                <img src="images/computer-room.png" alt="School computer room with rows of desktop computers" loading="lazy" />
+                <span class="facility__body">
+                  <strong>Computer Room</strong>
+                  <span>Digital literacy and ICT skills for the modern world.</span>
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="cta section">
-        <div class="container cta-box">
-          <div>
-            <p class="eyebrow">Admissions open</p>
-            <h2>Give your child a school experience built on faith, wisdom, and excellence.</h2>
+      <!-- ============================================================ -->
+      <!-- Admissions CTA                                               -->
+      <!-- ============================================================ -->
+      <section class="cta section" id="admissions">
+        <div class="container cta__inner" data-reveal>
+          <div class="cta__icon">
+            <svg><use href="#i-school" /></svg>
           </div>
-          <a class="btn btn-light" href="admissions.html">Book a Tour</a>
+          <h2>Give Your Child a Strong Foundation in Knowledge and Character.</h2>
+          <p>
+            Begin the journey toward Qur'anic knowledge, Arabic excellence and meaningful
+            character development. Admissions are open for the new session.
+          </p>
+          <div class="cta__actions">
+            <a href="#contact" class="btn btn--light">Begin Your Application</a>
+            <a href="tel:08039674929" class="btn btn--ghost-light">
+              <svg><use href="#i-phone" /></svg>
+              0803 967 4929
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- Contact                                                      -->
+      <!-- ============================================================ -->
+      <section class="contact section" id="contact">
+        <div class="container contact__grid">
+          <div class="contact__copy" data-reveal>
+            <p class="eyebrow">Contact Us</p>
+            <h2>We'd love to hear from you.</h2>
+            <p class="lead">
+              Questions about admissions, the curriculum or visiting the school? Reach out — we're
+              happy to help.
+            </p>
+
+            <div class="contact__list">
+              <div class="contact-row">
+                <span class="contact-row__icon contact-row__icon--green"><svg><use href="#i-phone" /></svg></span>
+                <div>
+                  <small>Call us</small>
+                  <a href="tel:08039674929">0803 967 4929</a><br />
+                  <a href="tel:07039592645">0703 959 2645</a>
+                </div>
+              </div>
+              <div class="contact-row">
+                <span class="contact-row__icon contact-row__icon--navy"><svg><use href="#i-pin" /></svg></span>
+                <div>
+                  <small>School address</small>
+                  <p>Offa, Kwara State, Nigeria</p>
+                  <p class="note">Full address placeholder — to be updated.</p>
+                </div>
+              </div>
+              <div class="contact-row">
+                <span class="contact-row__icon contact-row__icon--navy"><svg><use href="#i-clock" /></svg></span>
+                <div>
+                  <small>School hours</small>
+                  <p>Monday – Friday, 8:00 AM – 3:00 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact__social">
+              <span>Follow us</span>
+              <div class="socials">
+                <a href="#" aria-label="Facebook"><svg><use href="#i-facebook" /></svg></a>
+                <a href="#" aria-label="Instagram"><svg><use href="#i-instagram" /></svg></a>
+                <a href="#" aria-label="X (Twitter)"><svg><use href="#i-twitter" /></svg></a>
+                <a href="#" aria-label="WhatsApp"><svg><use href="#i-whats" /></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-panel" data-reveal>
+            <h3>Send us a message</h3>
+            <p>Fill in the form and our team will get back to you.</p>
+
+            <form class="form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required placeholder="e.g. Amina Yusuf" class="field" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" class="field" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="How can we help you?" class="field"></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn--primary">
+                  Send Message
+                  <svg><use href="#i-send" /></svg>
+                </button>
+                <p class="form-note" id="form-note" aria-live="polite" hidden>
+                  Thank you! This is a demo form — please contact the school by phone for enquiries.
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-wrap">
+    <!-- ============================================================ -->
+    <!-- Footer                                                       -->
+    <!-- ============================================================ -->
+    <footer class="footer">
+      <div class="container footer__grid">
         <div>
-          <div class="brand small-brand">
-            <div class="brand-mark">NQ</div>
-            <div>
+          <a href="#home" class="brand" aria-label="Nurulhaqq home">
+            <img src="images/school-logo.png" alt="Nurulhaqq Quranic and Arabic School crest" />
+            <span>
               <span class="brand-name">Nurulhaqq</span>
-              <small>Quranic & Arabic</small>
+              <span class="brand-tag">Quranic &amp; Arabic School</span>
+            </span>
+          </a>
+          <p class="footer__desc">
+            Nurturing Qur'anic knowledge and academic excellence in Offa, Kwara State.
+            Faith, character and learning under one roof.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Quick Links</h3>
+          <div class="footer__links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#admissions">Admissions</a>
+            <a href="#news">News/Events</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Contact</h3>
+          <div class="footer__contact">
+            <div>
+              <svg><use href="#i-phone" /></svg>
+              <a href="tel:08039674929">0803 967 4929</a>
+            </div>
+            <div>
+              <svg><use href="#i-phone" /></svg>
+              <a href="tel:07039592645">0703 959 2645</a>
+            </div>
+            <div>
+              <svg><use href="#i-pin" /></svg>
+              <span>Offa, Kwara State, Nigeria</span>
             </div>
           </div>
-          <p>Nurturing hearts, minds, and futures through authentic Islamic education.</p>
         </div>
 
-        <div class="footer-links">
-          <a href="about.html">About</a>
-          <a href="programs.html">Programs</a>
-          <a href="admissions.html">Admissions</a>
-          <a href="contact.html">Contact</a>
-        </div>
-
-        <div class="footer-contact">
-          <p>admissions@nurulhaqqschool.com</p>
-          <p>+1 (555) 789-0123</p>
+        <div>
+          <h3 class="footer__title">Connect</h3>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><svg><use href="#i-facebook" /></svg></a>
+            <a href="#" aria-label="Instagram"><svg><use href="#i-instagram" /></svg></a>
+            <a href="#" aria-label="X (Twitter)"><svg><use href="#i-twitter" /></svg></a>
+            <a href="#" aria-label="WhatsApp"><svg><use href="#i-whats" /></svg></a>
+          </div>
         </div>
       </div>
-      <div class="container bottom-bar">
+
+      <div class="container footer__bottom">
         <p>© <span id="year"></span> Nurulhaqq Quranic and Arabic School. All rights reserved.</p>
+        <p>Website designed &amp; developed by <strong>Skyline Studio</strong></p>
       </div>
     </footer>
+
+    <!-- ============================================================ -->
+    <!-- Lightbox                                                     -->
+    <!-- ============================================================ -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+      <button class="lightbox__close" id="lightbox-close" aria-label="Close preview">
+        <svg><use href="#i-x" /></svg>
+      </button>
+      <div class="lightbox__inner" id="lightbox-content"></div>
+    </div>
 
     <script src="script.js"></script>
   </body>
