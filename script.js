@@ -173,7 +173,7 @@
       applyStatus.classList.add('is-visible');
       applyStatus.textContent =
         'Thank you! This is a demo application form — nothing has been submitted to any database. ' +
-        'Please call the school on 0803 967 4929 to complete your child\u2019s application.';
+        'Please call the school on 07033193237 to complete your child\u2019s application.';
       applyForm.reset();
     });
   }
