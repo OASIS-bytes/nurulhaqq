@@ -115,12 +115,21 @@
     <!-- Announcement bar                                             -->
     <!-- ============================================================ -->
     <div class="announce">
-      <div class="announce__inner">
-        <span>New session begins Monday, 21 September 2026 — admissions are open.</span>
-        <a href="apply.html">
-          Apply Now
-          <svg><use href="#i-arrow-right" /></svg>
-        </a>
+      <div class="announce__track">
+        <div class="announce__inner">
+          <span>New session begins Monday, 21 September 2026 — admissions are open.</span>
+          <a href="apply.html">
+            Apply Now
+            <svg><use href="#i-arrow-right" /></svg>
+          </a>
+        </div>
+        <div class="announce__inner" aria-hidden="true">
+          <span>New session begins Monday, 21 September 2026 — admissions are open.</span>
+          <a href="apply.html" tabindex="-1">
+            Apply Now
+            <svg><use href="#i-arrow-right" /></svg>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -671,7 +680,11 @@
 
       <div class="container footer__bottom">
         <p>© <span id="year"></span> Nurulhaqq Quranic and Arabic School. All rights reserved.</p>
-        <p>Website designed &amp; developed by <strong>Skyline Studio</strong></p>
+        <p>Website designed &amp; developed by <strong>Skyline Studio</strong> |
+          <a href="https://wa.me/2347033193237"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Chat with Skyline Studio on WhatsApp">07033193237</a></p>
       </div>
     </footer>
 
